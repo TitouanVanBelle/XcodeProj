@@ -29,6 +29,7 @@ public enum PBXProductType: String, Decodable {
     case intentsServiceExtension = "com.apple.product-type.app-extension.intents-service"
     case onDemandInstallCapableApplication = "com.apple.product-type.application.on-demand-install-capable"
     case metalLibrary = "com.apple.product-type.metal-library"
+    case inAppPurchaseContent = "com.apple.product-type.in-app-purchase-content"
 
     /// Returns the file extension for the given product type.
     public var fileExtension: String? {
