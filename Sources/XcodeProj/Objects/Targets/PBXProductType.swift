@@ -60,6 +60,8 @@ public enum PBXProductType: String, Decodable {
             return "xcframework"
         case .metalLibrary:
             return "metallib"
+        case .inAppPurchaseContent:
+            return nil
         case .none:
             return nil
         }
